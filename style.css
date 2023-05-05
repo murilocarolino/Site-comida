@@ -7,7 +7,7 @@
 body{
     display: grid;
     height: 100vh;
-    background-color: #FFDE59;
+    background-image: url(./fundo\ teste.svg);
     grid-template-rows: 125px 1fr 125px;
 }
 
@@ -21,6 +21,54 @@ body{
     height: 20%;
 }
 
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#LetraA{
+    padding-left: 20px;
+    font-size: 130px;
+    font-family: fantasy;
+    color: #FF1414;
+}
+
+#LetraB{
+    padding-left: 100px;
+    font-size: 170px;
+    font-family: fantasy;
+    position: absolute;
+    bottom: 290px;
+    color: #FF1414;
+}
+
+#LetraC{
+    padding-left: 210px;
+    font-size: 130px;
+    font-family: fantasy;
+    position: absolute;
+    bottom: 240px;
+    color: #FF1414;
+}
+
+#LetraD{
+    padding-left: 60px;
+    font-size: 130px;
+    font-family: fantasy;
+    position: absolute;
+    bottom: 130px;
+    color: #FF1414;
+}
+
+#LetraE{
+    padding-left: 135px;
+    font-size: 160px;
+    font-family: fantasy;
+    position: absolute;
+    bottom: 130px;
+    color: #FF1414;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -29,7 +77,6 @@ header{
 }
 
 h1{
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 1.5em;
@@ -47,16 +94,16 @@ h1{
     padding-right: 30px;
 }
 
-/* ESTILIZAÇÃO FAIXA DE OPÇÕES */
-
 .options{
-    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    display: contents;
     font-weight: 600;
     font-size: 1em;
     line-height: 32px;
     letter-spacing: 0.05em;
     color: #000000;
     gap: 20px;
+
 }
 
 .option::after{
@@ -121,65 +168,31 @@ main{
     width: 48%;
 }
 
-/* ESTILIZAÇÃO DO TÍTULO */
-
-.headline{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3em;
-    line-height: 102px;
-    letter-spacing: 0.05em;
-    color: #DD4444;
-}
-
 /* ESTILIZAÇÃO DO CONTAINER DOS BOTÕES */
 
-.botão{
+.gp_botao{
     display: flex;
     gap: 42px;
 }
 
-.botão{
+.botao{
     background-color: #DD4444;
     width: 195px;
     height: 54px;
     border-radius: 15px;
-    display: grid;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: #ffffff;
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    letter-spacing: 0.05em;
 }
 
-.botão:hover{
+.botao:hover{
     background-color: #fafafa;
     color: #DD4444;
     border: solid;
-    border-color: #DD4444;
+    border-color: #000000;
     cursor: pointer;
-}
-
-#cadastro{
-    background-color: #DD4444
-}
-
-#green:hover{
-    background-color: #fafafa;
-    color: #285a5f;
-    border: solid;
-    border-color: #285a5f;
-    cursor: pointer;
-}
-
-/* ESTILIZAÇÃO DA SALADA */
-
-img[alt~=salad]{
-    position: absolute;
-    width: 600px;
-    top: 18%;
-    left: 52%; 
 }
