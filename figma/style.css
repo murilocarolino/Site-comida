@@ -108,9 +108,9 @@ body{
 }
 
 .esfiha{
-    padding-left: 600px;
     position: absolute;
-    bottom: 30px;
+    right: 180px;
+    bottom: 50px;    
 }
 
 header{
@@ -138,14 +138,18 @@ h1{
     height: 60;
 }
 
-.delivery{
-    padding-left: 50px;
-    background-color: #FF1414;
-    border-radius: 10px;
-    width: 150px;
-    height: 100px;
-    padding-left: 30px;
+.barra{
+    padding-right: 10px;
+    background-color: #DD4444;
+    border: 2.5px solid black;
+    padding-left: 10px;
+    border-radius: 70px;
+    display: inline-flex;
     align-items: center;
+    justify-content: space-between;
+    line-height: 32px;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 
 .options{
@@ -219,6 +223,8 @@ main{
 .gp_botão{
     display: flex;
     gap: 42px;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .botao:hover{
@@ -229,14 +235,12 @@ main{
     cursor: pointer;
 }
 
-#sessao{
-    display: flex;
+#cadastro{
     justify-content: center;
     align-items: center;
 }
 
-#cadastro{
-    display: flex;
+#sessao{
     justify-content: center;
     align-items: center;
 }
